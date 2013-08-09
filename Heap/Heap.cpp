@@ -229,8 +229,8 @@ int main(int argc, char* argv[]){
 				n_h_high++;
 			}		
 		}
-		cout<<"\nh low:";
-		h_low.print_heap();
+		//cout<<"\nh low:";
+		//h_low.print_heap();
 		//cout<<"\nh high";
 		//h_high.print_heap();		
 		//cout<<"n_h_low="<<n_h_low;
@@ -247,10 +247,10 @@ int main(int argc, char* argv[]){
 				n_h_high--;
 			}
 		}
-		cout<<"\nh low:";
-		h_low.print_heap();
-		cout<<"\nh high";
-		h_high.print_heap();
+		//cout<<"\nh low:";
+		//h_low.print_heap();
+		//cout<<"\nh high";
+		//h_high.print_heap();
 		int median;
 		if(n_h_low==n_h_high){
 			median=h_low.peek_max();
@@ -267,7 +267,7 @@ int main(int argc, char* argv[]){
 		//input[cnt]=atoi(line.c_str());
 	}
 	
-	cout<<"\nSum="<<sum;
+	cout<<"\nSum="<<sum%10000;
 	
 	
 	
